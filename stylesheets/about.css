@@ -1,0 +1,31 @@
+.footer {
+    position: fixed;
+    left: 20px;
+    bottom: 0;
+    width: 100%;
+    background-color:#f8f9fa;
+    color: white;
+    text-align: left;
+  }
+  
+  main {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .breadcrumb {
+    background-color: transparent;
+  }
+
+  .headline {
+    margin-left: 20px
+  }
+  
+  .col {
+    text-align: justify;
+    margin-right: 50px;
+  }
+   
+  img {
+    max-width: 100%;
+  }

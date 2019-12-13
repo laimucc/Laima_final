@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../stylesheets/register.css">
+
+</head>
+<body class="d-flex flex-column h-100" data-gr-c-s-loaded="true">
+        <main role ="main" class="flex-shrink-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">  
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../html/home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/articles_page.html">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/chat.html">Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/about.html">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../html/home.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Register</li>
+            </ol>
+        </nav>
+
+
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="inputUsername" placeholder="Username*" id="oblig">
+                      </div>
+            </div>
+            <div class="form-row">  
+                  <div class="form-group col-md-6">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email*" id="oblig">
+                  </div>
+                </div>
+                <div class="form-row">    
+                  <div class="form-group col-md-6">
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password*" id="oblig">
+                  </div>
+                </div>
+                <div class="form-row">    
+                        <div class="form-group col-md-6">
+                          <input type="password" required class="form-control" id="retypePassword" placeholder="Retype Password*" id="oblig">
+                        </div>
+                      </div>
+                <div class="form-row"> 
+                        <div class="form-group col-md-6">
+                  <input type="text" class="form-control" id="firstName" placeholder="First name">
+                </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <select id="inputState" class="form-control" placeholder="Country*" id="oblig">
+                      <option>Latvia</option>
+                      <option>Estonia</option>
+                      <option>Lithuania</option>
+                      <option>Anywhere else in the world</option>
+                    </select>
+                  </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Agree with terms and conditions*
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-outline-secondary" id="submit">Register</button>
+              </form>
+
+    
+
+    </main>
+    
+
+    <div class="footerWrap">
+            <footer class="footer mt-auto py-3" id="footer">
+                <div class="containerFooter">
+                    <span class="text-muted">(c) Me</span>
+                </div>
+            </footer>
+        </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="../scripts/register.js"></script>
+</body>
+</html>
